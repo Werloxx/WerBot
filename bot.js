@@ -17,5 +17,7 @@ client.on('message', message => {
   	}
 });
 
+client.user.setGame('game here !')
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
