@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'w!blague') {
-    	message.reply('test');
+    	message.reply('test1');
   	}
 });
 
