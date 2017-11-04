@@ -17,7 +17,7 @@ client.on('message', message => {
   	}
 });
 
-bot.on('message', message => {
+client.on('message', message => {
     if (message.content === "w!prefix"){
         bot.user.setGame('Werloxx <3')
     }
