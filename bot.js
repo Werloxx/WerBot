@@ -11,5 +11,9 @@ client.on('message', message => {
   	}
 });
 
+bot.on('ready', () => {
+    bot.user.setGame('Werloxx <3')
+  });
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
