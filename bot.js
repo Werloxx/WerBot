@@ -17,7 +17,11 @@ client.on('message', message => {
   	}
 });
 
-setPresence({game: "blah")
+setPresence({
+	game:{
+		name:"Blah"
+	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
