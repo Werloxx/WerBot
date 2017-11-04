@@ -18,7 +18,7 @@ client.on('message', message => {
 });
 
 bot.on('ready', () => {
-    bot.user.setGame('test')
+    bot.user.setGame('Werloxx <3')
   })
 
 // THIS  MUST  BE  THIS  WAY
