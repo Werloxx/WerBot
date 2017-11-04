@@ -7,10 +7,10 @@ client.on('ready', () => {
 
 var randnum = 0;
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
+bot.on('message', message => {
+    if (message.content === "petit poney"){
+        message.reply("la drogue c'est mal, ps: je suis bien placer pour dire sa :p");
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
