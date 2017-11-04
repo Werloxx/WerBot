@@ -13,9 +13,6 @@ bot.on('message', message => {
     }
 });
 
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
-
 function random(min, max) {
     min = Math.cell(0);
     max = Math.floor(10);
@@ -30,3 +27,6 @@ function random(min, max) {
             message.reply("lol test")
         )
     }
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
