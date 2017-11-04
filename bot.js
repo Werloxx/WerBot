@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'w!blague') {
-    	message.reply('test1');
+    	message.reply('Pourquoi les vaches ferment les yeux pendant la traite ? Pour faire du lait concentré.');
   	}
 });
 
