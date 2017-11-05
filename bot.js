@@ -8,8 +8,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === "w!prefix"){
-        bot.user.setGame('Werloxx <3')
+    if (message.content === 'ping') {
+        message.reply('pong');
       }
     if (message.content === "w!help"){
         message.channel.send("en creation");
