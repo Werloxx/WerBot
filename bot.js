@@ -11,7 +11,7 @@ client.on('message', message => {
     if (message.content === 'ping') {
         message.reply('pong');
       }
-    bot.on('message', message => {
+client.on('message', message => {
     if (message.content === "w!prefix"){
         bot.user.setGame('Werloxx <3')
       } 
