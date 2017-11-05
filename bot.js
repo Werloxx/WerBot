@@ -18,7 +18,7 @@ client.on('message', message => {
     if (message.content === prefix + "blague"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
-            .addField("Blague :joy:", "Selon les médias, les girafes n'ont jamais existées, c'était un coup monté.")
+            .addField("Blague :joy:", "Selon les médias, les girafes n'ont jamais existées, c'était un coup monté./n TEST")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
 
