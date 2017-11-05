@@ -25,7 +25,6 @@ bot.on('message', message => {
             .addField("Blague :joy:", "Pourquoi les vaches ferment les yeux pendant la traite ? Pour faire du lait concentré.")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
-
     }
 });
 
