@@ -13,7 +13,7 @@ client.on('message', message => {
       }
 client.on('message', message => {
     if (message.content === "w!prefix"){
-        bot.user.setPresence('Werloxx <3')
+        bot.user.setGame('Werloxx <3')
       } 
     if (message.content === "w!help"){
         message.channel.send("en creation");
@@ -26,12 +26,6 @@ client.on('message', message => {
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
 
-    }
-});
-
-bot.on('message', message => {
-    if (message.content === "w!prefix"){
-        bot.user.setGame('Werloxx <3')
     }
 });
 
