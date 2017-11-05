@@ -6,13 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping1') {
+    if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    
-bot.on('message', message => {
-    if (message.content === "ping"){
-        message.channel.send("pong");
 });
 
 // THIS  MUST  BE  THIS  WAY
