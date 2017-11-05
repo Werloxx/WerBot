@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-var prefix = "w!"
+var prefix = ("w!");
 
 client.on('message', message => {
     if (message.content === 'ping') {
