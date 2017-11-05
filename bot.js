@@ -8,8 +8,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-        message.reply('pong');
+    if (message.content === 'Werloxx le plus beau') {
+        message.reply('Ouais j'avou :100:');
       }
     if (message.content === "w!help"){
         message.channel.send("en creation");
