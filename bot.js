@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Werloxx le plus beau') {
-        message.reply('Ouais j'avou :100:');
+        message.reply('Ouais trop');
       }
     if (message.content === "w!help"){
         message.channel.send("en creation");
