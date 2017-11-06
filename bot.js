@@ -27,7 +27,7 @@ client.on('message', message => {
         //message.channel.sendMessage("tu veux voir ma bite ?"
     }
 
-    if (message.content === prefix + "blague"){
+    if (message.content === prefix + "serv"){
         name: "server-info",
         description: "Prints the information of the current server.",
         extendedhelp: "I'll tell you some information about the server and the channel you're currently in.",
