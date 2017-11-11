@@ -32,6 +32,10 @@ client.on('message', message => {
         //message.channel.sendMessage("tu veux voir ma bite ?")
         
     }
+    	if (message.content === 'w!avatar') {
+	  message.reply(message.author.avatarURL);
+	}
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
