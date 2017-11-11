@@ -27,7 +27,7 @@ client.on('message', message => {
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
-            .addField("Infos sur SeuryZero", "test bite bite\nbite")
+            .addField("Infos sur SeuryZero", "test bite bite\n\nbite")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
         
