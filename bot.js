@@ -27,13 +27,13 @@ client.on('message', message => {
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
-            .addField("Infos sur SeuryZero", "test bite bite\n\nbite")
+            .addField("-=:arrow_backward::regional_indicator_h::regional_indicator_e::regional_indicator_l::regional_indicator_p:")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
         
     }
     	if (message.content === 'w!avatar') {
-	  message.reply(message.author.avatarURL);
+	  message.channel.send(message.author.avatarURL);
 	}
     
 });
