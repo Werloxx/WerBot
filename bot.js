@@ -15,6 +15,10 @@ client.on('message', message => {
     if (message.content === "Ping"){
         message.channel.send("Pong");
     }
+	
+    if (message.content === "w!chien"){
+        message.channel.send("https://www.tenor.co/s6vl.gif");
+    }
 
     if (message.content === prefix + "blague"){
         var help_embed = new Discord.RichEmbed()
