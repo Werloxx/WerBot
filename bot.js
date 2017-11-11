@@ -4,7 +4,7 @@ const client = new Discord.Client();
 var prefix = ("w!");
 
 client.on('ready', () => {
-    client.user.setPresence({ game: { name: "Werloxx", type: 0} });
+    client.user.setPresence({ game: { name: "MESSAGE_ICI", type: 0} });
 console.log('I am ready!');
 });
 
@@ -29,16 +29,17 @@ client.on('message', message => {
             .setColor('#00F0D8')
             .addField("Help :joy:", "gui")
         message.channel.sendEmbed(help_embed)
-        //message.channel.sendMessage("tu veux voir ma bite ?") 
+        //message.channel.sendMessage("tu veux voir ma bite ?")
+        
     }
-    
-    bot.on('guildMemberAdd', member => {
+});
+
+bot.on('guildMemberAdd', member => {
     member.createDM().then(channel => {
       return channel.send('Bienvenue sur la PixelTeam' + member.displayName)
     }).catch(console.error)
     // On pourrait catch l'erreur autrement ici (l'utilisateur a peut être désactivé les MP)
-  })
-});
+  });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
