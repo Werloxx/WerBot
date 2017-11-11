@@ -27,7 +27,7 @@ client.on('message', message => {
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
-            .addField("-=:arrow_backward::regional_indicator_h::regional_indicator_e::regional_indicator_l::regional_indicator_p::arrow_forward:=-", "coucou")
+            .addField("-=:arrow_backward::regional_indicator_h::regional_indicator_e::regional_indicator_l::regional_indicator_p::arrow_forward:=-", "Voici toutes les commandes disponibles avec le __**WerBot**__")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
         
