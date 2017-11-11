@@ -4,7 +4,7 @@ const client = new Discord.Client();
 var prefix = ("w!");
 
 client.on('ready', () => {
-    client.user.setPresence({ game: { name: "MESSAGE_ICI", type: 0} });
+    client.user.setPresence({ game: { name: "Werloxx | w!help", type: 0} });
 console.log('I am ready!');
 });
 
