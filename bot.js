@@ -19,7 +19,11 @@ client.on('message', message => {
     if (message.content === "w!chien"){
         message.channel.send("https://www.tenor.co/s6vl.gif");
     }
-
+	
+    if (message.content === "w!chat"){
+        message.channel.send("https://www.tenor.co/tzmM.gif");
+    }
+	
     if (message.content === prefix + "blague"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
