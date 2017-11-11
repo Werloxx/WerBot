@@ -24,6 +24,10 @@ client.on('message', message => {
         message.channel.send("https://www.tenor.co/tzmM.gif");
     }
 	
+    if (message.content === "w!sale"){
+        message.channel.send("https://tenor.com/view/ass-cum-gif-7504054");
+    }
+	
     if (message.content === prefix + "blague"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
