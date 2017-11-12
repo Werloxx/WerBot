@@ -35,6 +35,14 @@ client.on('message', message => {
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
     }
+		
+    if (message.content === prefix + "serveurinfos"){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#98B0E9')
+            .addField("Infos sur la PixelTeam :page_with_curl:", "TEST")
+        message.channel.sendEmbed(help_embed)
+        //message.channel.sendMessage("tu veux voir ma bite ?")
+    }
 
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
