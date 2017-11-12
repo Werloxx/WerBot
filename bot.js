@@ -12,8 +12,8 @@ client.on('message', message => {
     if (message.content === 'Werloxx le plus beau') {
         message.reply('Ouais trop');
       }
-    if (message.content === "ping"){
-        message.channel.send(`\`${Date.now() - message.createdTimestamp} ms\``);
+    if (message.content === "w!ping"){
+        message.channel.send(`\`${Date.now() - message.createdTimestamp} Tu fais du ms\``);
     }
 	
     if (message.content === "w!chien"){
