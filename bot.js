@@ -39,7 +39,7 @@ client.on('message', message => {
     if (message.content === prefix + "serveurinfos"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#98B0E9')
-            .addField("Infos sur la PixelTeam :pixel__team:","		__Créateur__\rUltimate#5669")
+            .addField("Infos sur la PixelTeam :notepad_spiral:","            __Créateur__\rUltimate#5669")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
     }
