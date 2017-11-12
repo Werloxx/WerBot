@@ -13,7 +13,7 @@ client.on('message', message => {
         message.reply('Ouais trop');
       }
     if (message.content === "w!ping"){
-        message.channel.send(`\`${Date.now() - message.createdTimestamp} Tu fais du ms\``);
+        message.channel.send(`\`${Date.now() - message.createdTimestamp} msTu fais du\``);
     }
 	
     if (message.content === "w!chien"){
