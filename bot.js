@@ -55,7 +55,7 @@ client.on('message', message => {
     if (message.content === prefix + "profile"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#61F2B8')
-	    .setThumbnail(this.username = data.username;)
+	    .setThumbnail(message.author.username)
 	    .setDescription("**Statut**>:green_book:```En Ligne```")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
