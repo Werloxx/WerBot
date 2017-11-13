@@ -4,7 +4,7 @@ const client = new Discord.Client();
 var prefix = ("w!");
 
 client.on('ready', () => {
-    client.user.setPresence({ game: { name: "Werloxx<3|w!help", type: 0} });
+    client.user.setPresence({ game: { name: "Werloxx<3 | w!help", type: 0} });
 console.log('I am ready!');
 });
 
@@ -54,8 +54,8 @@ client.on('message', message => {
 	
     if (message.content === prefix + "profile"){
         var help_embed = new Discord.RichEmbed()
-            .setColor('#00F0D8')
-	    .setThumbnail(message.author.avatarURL)
+            .setColor('#61F2B8')
+	    .setThumbnail(this.username = data.username;)
 	    .setDescription("**Statut**>:green_book:```En Ligne```")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
