@@ -50,12 +50,16 @@ client.on('message', message => {
             .addField("-=:arrow_backward::regional_indicator_h::regional_indicator_e::regional_indicator_l::regional_indicator_p::arrow_forward:=-", "Voici toutes les commandes disponibles avec le __**WerBot**__\rCes commandes sont à faire avec le préfix `w!`\r:game_die: __Jeux |Fun__\r:arrow_right:`ping` > Pong !\r:arrow_right:`chien` > Photo aléatoire d'un chien.\r:arrow_right:`chat` > Photo aléatoire d'un chat.\r:triangular_flag_on_post:__Utile__\r:arrow_right: `ping` > Affiche le ping\r:arrow_right: `serveurinfos` > Informations sur le serveur.")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
-        
     }
-    	if (message.content === 'w!avatar') {
-	  message.channel.send(message.author.avatarURL);
-	}
-    
+	
+    if (message.content === prefix + "profile"){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#00F0D8')
+            .addField("Profile", "message.author.avatarURL")
+        message.channel.sendEmbed(help_embed)
+        //message.channel.sendMessage("tu veux voir ma bite ?")
+    }
+	
 });
 
 // THIS  MUST  BE  THIS  WAY
