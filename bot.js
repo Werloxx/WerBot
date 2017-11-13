@@ -55,7 +55,6 @@ client.on('message', message => {
     if (message.content === prefix + "profile"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
-            .addField("Profile", "")
 	    .setThumbnail(message.author.avatarURL)
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
