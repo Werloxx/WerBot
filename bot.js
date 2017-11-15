@@ -28,6 +28,10 @@ client.on('message', message => {
         message.channel.send("https://tenor.com/view/ass-cum-gif-7504054");
     }
 	
+    if (message.content === "w!ban"){
+        message.channel.send("?ban @$carface#6056  cherches la merde + insultes pour rien + provocations");
+    }
+	
     if (message.content === prefix + "blague"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#00F0D8')
