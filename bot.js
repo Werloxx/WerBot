@@ -30,6 +30,7 @@ client.on('message', message => {
 	
     if (message.content === "w!ooo"){
         message.channel.send(message.author.avatarURL);
+	message.reply("Voiçi ton avatar");
     }
 	
     if (message.content === "w!ban"){
