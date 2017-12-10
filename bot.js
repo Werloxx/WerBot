@@ -65,6 +65,15 @@ client.on('message', message => {
         //message.channel.sendMessage("tu veux voir ma bite ?")
     }
 	
+    if (message.content === prefix + "E-WEB"){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#02E674')
+	    .addField("(message.author.avatarURL)")
+	    .setDescription("**Statut**>:green_book:```En Ligne```")
+        message.channel.sendEmbed(help_embed)
+        //message.channel.sendMessage("tu veux voir ma bite ?")
+    }
+	
 });
 
 // THIS  MUST  BE  THIS  WAY
