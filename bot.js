@@ -28,6 +28,10 @@ client.on('message', message => {
         message.channel.send("https://tenor.com/view/ass-cum-gif-7504054");
     }
 	
+    if (message.content === "w!ooo"){
+        message.channel.send(message.author.avatarURL);
+    }
+	
     if (message.content === "w!ban"){
         message.channel.send("?ban @$carface#6056  cherches la merde + insultes pour rien + provocations");
     }
@@ -64,16 +68,7 @@ client.on('message', message => {
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
     }
-	
-    if (message.content === prefix + "E-WEB"){
-        var help_embed = new Discord.RichEmbed()
-            .setColor('#02E674')
-	    .addField("(message.author.avatarURL)")
-	    .setDescription("**Statut**>:green_book:```En Ligne```")
-        message.channel.sendEmbed(help_embed)
-        //message.channel.sendMessage("tu veux voir ma bite ?")
-    }
-	
+		
 });
 
 // THIS  MUST  BE  THIS  WAY
