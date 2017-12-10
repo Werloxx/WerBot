@@ -65,7 +65,7 @@ client.on('message', message => {
         var help_embed = new Discord.RichEmbed()
             .setColor('#61F2B8')
 	    .setThumbnail(message.author.avatarURL)
-	    .setDescription("**Statut**>:green_book:```En Ligne```")
+	    .setDescription("**Voiçi ton avatar**>:reminder_ribbon:\r```coucou```")
         message.channel.sendEmbed(help_embed)
         //message.channel.sendMessage("tu veux voir ma bite ?")
     }
